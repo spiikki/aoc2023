@@ -6,7 +6,7 @@
 result = 0
 original_cards = []
 
-with open("data") as data:
+with open("example") as data:
     for card in data:
         card_fields = card.split(":")
         card_id = card_fields[0]
